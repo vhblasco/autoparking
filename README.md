@@ -52,7 +52,7 @@ $ java -jar ./target/autoparking-0.0.1-SNAPSHOT.jar 5,5:RFLFRFLF 6,6:FFLFFLFFLFF
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v1.5.9.RELEASE)
 
-2017-12-11 21:59:39.940  INFO 4429 --- [           main] c.w.autoparking.AutoParkingApplication   : Starting AutoParkingApplication v0.0.1-SNAPSHOT on leela with PID 4429 (/home/oli/proyectos/tests/white_clarke/technical_assessment/autoparking/target/autoparking-0.0.1-SNAPSHOT.jar started by oli in /home/oli/proyectos/tests/white_clarke/technical_assessment/autoparking)
+2017-12-11 21:59:39.940  INFO 4429 --- [           main] c.w.autoparking.AutoParkingApplication   : Starting AutoParkingApplication 
 2017-12-11 21:59:39.946  INFO 4429 --- [           main] c.w.autoparking.AutoParkingApplication   : No active profile set, falling back to default profiles: default
 2017-12-11 21:59:40.043  INFO 4429 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28c97a5: startup date [Mon Dec 11 21:59:40 GMT 2017]; root of context hierarchy
 2017-12-11 21:59:41.354  INFO 4429 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
