@@ -39,3 +39,33 @@ $ java -jar ./target/autoparking-0.0.1-SNAPSHOT.jar 5,5:RFLFRFLF
 ```sh
 $ java -jar ./target/autoparking-0.0.1-SNAPSHOT.jar 5,5:RFLFRFLF 6,6:FFLFFLFFLFF 5,5:FLFLFFRFFF
 ```
+
+### Output Example
+
+<pre><code>
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+2017-12-11 21:59:39.940  INFO 4429 --- [           main] c.w.autoparking.AutoParkingApplication   : Starting AutoParkingApplication v0.0.1-SNAPSHOT on leela with PID 4429 (/home/oli/proyectos/tests/white_clarke/technical_assessment/autoparking/target/autoparking-0.0.1-SNAPSHOT.jar started by oli in /home/oli/proyectos/tests/white_clarke/technical_assessment/autoparking)
+2017-12-11 21:59:39.946  INFO 4429 --- [           main] c.w.autoparking.AutoParkingApplication   : No active profile set, falling back to default profiles: default
+2017-12-11 21:59:40.043  INFO 4429 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28c97a5: startup date [Mon Dec 11 21:59:40 GMT 2017]; root of context hierarchy
+2017-12-11 21:59:41.354  INFO 4429 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-11 21:59:41.391  INFO 4429 --- [           main] c.w.autoparking.AutoParkingApplication   : Started AutoParkingApplication in 2.21 seconds (JVM running for 2.973)
+2017-12-11 21:59:41.417  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : *************
+2017-12-11 21:59:41.417  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : Initial position (5,5) and sequence RFLFRFLF
+2017-12-11 21:59:41.419  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : Final Position (7,7)
+2017-12-11 21:59:41.420  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : *************
+2017-12-11 21:59:41.420  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : Initial position (6,6) and sequence FFLFFLFFLFF
+2017-12-11 21:59:41.420  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : Final Position (6,6)
+2017-12-11 21:59:41.421  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : *************
+2017-12-11 21:59:41.421  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : Initial position (5,5) and sequence FLFLFFRFFF
+2017-12-11 21:59:41.421  INFO 4429 --- [           main] c.w.autoparking.beans.AutoParking        : Final Position (4,1)
+2017-12-11 21:59:41.433  INFO 4429 --- [       Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@28c97a5: startup date [Mon Dec 11 21:59:40 GMT 2017]; root of context hierarchy
+2017-12-11 21:59:41.438  INFO 4429 --- [       Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+</code></pre>
